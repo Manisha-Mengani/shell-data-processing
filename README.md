@@ -25,6 +25,19 @@
  - ``` tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr > result.txt ```
  *  The output of the above command will copy all the results into result.txt file.
  
+ 
+ 
+ ### Up Arrow in bash
+ * Up Arrow in bash will help to retrive the previous commands in the existing bash window
+ 
+ ### Getting help
  - ``` sort --help ```
- * To get theb help with the sort flags
+ * To get the help with the sort flags that were used in sorting
+ * "-n" - To sort the with numeric values
+ * "-r" to sort data in reverse order
+ * Only one dash is used for single letter flag
+ * Two dashes when the flag is more than one letter
+ 
+ 
+ 
  
