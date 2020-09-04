@@ -38,6 +38,16 @@
  * Only one dash is used for single letter flag
  * Two dashes when the flag is more than one letter
  
- 
+ ### Bonus points:
+ * Using only your intellect and script commands, which file holds the positive comments?
+   File A hold positive
+ * Which file holds negative comments?
+   File B hold negetive
+ * How did you process the data? How confident are you?
+   Just had a look into the file and performed operations using commands below commands
+   * tr ' ' '\12' < A.txt
+   tr ' ' '\12' < A.txt | sort
+   tr ' ' '\12' < A.txt | sort | uniq -c 
+   tr ' ' '\12' < A.txt | sort | uniq -c | sort -nr > resultA.txt
  
  
