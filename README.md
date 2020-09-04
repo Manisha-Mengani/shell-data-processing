@@ -44,10 +44,15 @@
  * Which file holds negative comments?
    File B hold negetive
  * How did you process the data? How confident are you?
-   Just had a look into the file and performed operations using commands below commands
+   Just had a look into the file and performed operations to retrive the content of the both the files using commands below commands
    * tr ' ' '\12' < A.txt
-   tr ' ' '\12' < A.txt | sort
-   tr ' ' '\12' < A.txt | sort | uniq -c 
-   tr ' ' '\12' < A.txt | sort | uniq -c | sort -nr > resultA.txt
- 
+   * tr ' ' '\12' < A.txt | sort
+   * tr ' ' '\12' < A.txt | sort | uniq -c 
+   * tr ' ' '\12' < A.txt | sort | uniq -c | sort -nr > resultA.txt
+  I used below commands to differentiate the content holiding by 
+  $ cat A.txt | grep -i 'bad' -c
+  $ cat B.txt | grep -i 'bad' -c
+  $ cat B.txt | grep -i 'good' -c
+  $ cat B.txt | grep -i 'good' -c
+
  
