@@ -56,5 +56,5 @@
   * ``` $ cat B.txt | grep -i 'good' -c ``` 
   * ``` $ cat B.txt | grep -i 'good' -c ``` 
 
-  * ![Bonus Question result](Capture.jpg)
+  * ![Bonus Question result](Capture.JPG)
  
